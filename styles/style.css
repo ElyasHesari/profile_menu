@@ -70,7 +70,7 @@ html, body, div, span, applet, object, iframe,
     object-fit: cover; /* To keep the original size of the photo */
 }
 
-.action .menu {
+.menu {
   position: absolute;
   top: 140px;
   right: 0;
@@ -128,4 +128,8 @@ html, body, div, span, applet, object, iframe,
 .action .menu h3 span {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.523);
+}
+
+.toggleMenu {
+  opacity: 1;
 }
