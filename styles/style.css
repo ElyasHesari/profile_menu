@@ -82,6 +82,7 @@ html, body, div, span, applet, object, iframe,
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
 .action .menu::before {
