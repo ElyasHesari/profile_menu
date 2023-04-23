@@ -60,7 +60,7 @@ html, body, div, span, applet, object, iframe,
         -o-border-radius: 50%;
         position: relative;
         overflow: hidden; /*for active Style to children*/ 
-      
+        cursor: pointer;
      }
 
 .action .profile img {
@@ -81,7 +81,7 @@ html, body, div, span, applet, object, iframe,
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  
+  opacity: 0;
 }
 
 .action .menu::before {
